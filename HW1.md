@@ -88,4 +88,5 @@ getCarByIndex(1) ////  { name: 'Vesta', price: 50000, manufacture: 'Lada', wheel
 
 * [Типы данных Mozila MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Data_structures)
 * [Типы данных Learn JavaScript](https://learn.javascript.ru/data-types)
+
 * [Функции Learn JavaScript](https://learn.javascript.ru/function-basics)
