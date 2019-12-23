@@ -1,4 +1,4 @@
-# Home work 3 (Object, Array, For lopos)
+# Home work 3 (Object, Array, For loops)
 
 ## Основные задания
 
