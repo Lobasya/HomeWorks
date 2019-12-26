@@ -24,7 +24,7 @@ etc.
 ```
 
 ### 2
-Добавить финкции - конструктору метод (помним про [prototype](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)):
+Добавить функции - конструктору метод (помним про [prototype](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)):
 getFullName который вернет полное имя начиная с фамилии в виде строки
 
 ```js
@@ -62,35 +62,26 @@ const emplyeeConstructArr = createEmployesFromArr(emplyeeArr) /// [{id: 0, name:
 Создать функцию которая вернет среднее значение зарплаты всех employee
 
 ``` js
-       const getMidleSalary = (arr) => {
+       const getMiddleSalary = (arr) => {
               ... Your code
        }
        
-       getMidleSalary(emplyeeConstructArr) /// 1560
+       getMiddleSalary(emplyeeConstructArr) /// 1560
 
 ```
-### 6
 
-Создать функцию которая вернет среднее значение зарплаты всех employee
-
-``` js
-       const getMidleSalary = (arr) => {
-              ... Your code
-       }
-       
-       getMidleSalary(emplyeeConstructArr) /// 1560
-```
 ## Доп. задания
 
-### 7
+### 6
 
 Создать функцию которая выберет рандомного работника из массива emplyeeConstructArr. Вы должны учитывать в функции
 длинну массива, так как если работников 7, а рандомное число будет равно больше 7, 
 то результат будет undefined. Вы можете использовать обьявленную функцию в сомой же себе. 
+Подсказка [Math.random](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random);
 
 ``` js
        const getRandomNumber = (maxRandom) => {
-        const randomNumber = получаем рандомное число [Math.random](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random);
+        const randomNumber = получаем рандомное число с помощью Math.random()
         if (randomNumber > maxRandom) {
             getRandomNumber(maxRandom);
         } else {
