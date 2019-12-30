@@ -28,7 +28,7 @@ function CreateStudent(student) {
     ... Your code
 }; 
 
-const sudentObj = new CreateStudent(studentsArr[0]) /// 
+const sudentObj = new CreateStudent(studentsArr[0]) /// { id: 0,  name: 'Valeriy', surname: 'Zhmishenko', ratingPoint: 1500, schoolPoint: 1200, isSelfPayment: false, }
 
 const setAllCreatedStudentsByConstructor = arrOfStudents => {
     ... Your code
