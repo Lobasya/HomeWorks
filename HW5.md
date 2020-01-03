@@ -39,6 +39,34 @@ const newStudentsArr = setAllCreatedStudentsByConstructor(studentsArr) /// [{ id
 etc.
 ```
 
+## Дополнительные задания
+
+### 2
+
+Реализуйте класс CustomString, который будет иметь следующие методы: метод reverse(), который параметром принимает строку, а возвращает ее в перевернутом виде, метод ucFirst(), который параметром принимает строку, а возвращает эту же строку, сделав ее первую букву заглавной и метод ucWords, который принимает строку и делает заглавной первую букву каждого слова этой строки.
+
+``` js
+const myString = new CustomString();
+
+myString.reverse('qwerty'); //выведет 'ytrewq'
+myString.ucFirst('qwerty'); //выведет 'Qwerty'
+myString.ucWords('qwerty qwerty qwerty'); //выведет 'Qwerty Qwerty Qwerty
+
+```
+### 3
+
+Реализуйте класс Validator, который будет проверять строки. К примеру, у него будет метод checkIsEmail параметром принимает строку и проверяет, является ли она емейлом или нет. Если является - возвращает true, если не является - то false. Кроме того, класс будет иметь следующие методы: метод checkIsDomain для проверки домена, метод checkIsDate для проверки даты и метод checkIsPhone для проверки телефона:
+
+``` js
+var validator = new Validator();
+
+validator.checkIsEmail('vasya.pupkin@gmail.com'); // true
+validator.checkIsDomain('google.com'); // true
+validator.checkIsDate('30.11.2019'); // true
+validator.checkIsPhone('+38 (066) 937-99-92'); // если код страны Украинский, то возвращаем true иначе false
+
+```
+
 
 # Литература
 
