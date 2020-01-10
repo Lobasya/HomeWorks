@@ -81,7 +81,7 @@ email имеет почтовый сервер gmail.com (alex@gmail.com, someHu
 
 ```js
 
-getAllCustomersWithComDomain() /// [3, 5, 12, 35 ...]
+getAllGmailCustomers() /// [3, 5, 12, 35 ...]
 
 etc.
 ```
