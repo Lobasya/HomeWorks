@@ -107,14 +107,6 @@ etc.
 
 Содать функцию которая вернет отсартированный массив кастомеров по их общим тратам (свойство accountHistory смотрим на amount). Сортировка по возрастанию.
 
-``` js
-const myString = new CustomString();
-
-myString.reverse('qwerty'); //выведет 'ytrewq'
-myString.ucFirst('qwerty'); //выведет 'Qwerty'
-myString.ucWords('qwerty qwerty qwerty'); //выведет 'Qwerty Qwerty Qwerty
-
-```
 ### 7
 
 Содать функцию которая вернет отсартированный массив кастомеров по их общим тратам (свойство accountHistory смотрим на amount). Сортировка по параметру функции. Параметров может быть 3 вида ('asc', 'desc').
