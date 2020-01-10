@@ -67,3 +67,4 @@ const studentArr = [
         schoolPoint: 200,
     },
 ];
+
