@@ -18,7 +18,7 @@ etc.
 Форматировать у каждого экзепляра Condidate registered, так что бы оно было представленно в виде js данных [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date). Что бы это получилось нам первоначально нужно отформатировать строку так, что бы удалитm из строки 
 правую часть после пробела. Было "registered": "2017-04-08T05:13:17 -03:00" стало "registered": "2017-04-08T05:13:17".
 Подсказка [split](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/split).
-[new Date(condidate.registered)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date)
+new [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date) (condidate.registered)
 
 ```js
 
@@ -32,7 +32,7 @@ etc.
 ### 3
 
 Создать функцию которая будет удалять людей из массива [condidateArr](https://github.com/Lobasya/HomeWorks/blob/master/HW9/condidateArr.js) 
-по индексу, который мы передадим параметром. [split](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+по индексу, который мы передадим параметром. [splice](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 ```js
 const arr = ['Vasya', 'Petya', 'Alexey']
@@ -44,7 +44,7 @@ etc.
 
 ### 4
 
-Создать геттер allFriends, котрый вернет строкой имена всех друзей, но без фамилии. Используем [join](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [split](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+Создать геттер allFriends, котрый вернет строкой имена всех друзей, но без фамилии. Используем [join](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/join).
 
 ```js
 const condidate = new Condidate(condidateArr[0])
@@ -74,7 +74,7 @@ getAllValues(condidateArr[0]) /// ["5e216bc9a6059760578aefa4", 0, "e325a387-e1f4
 etc.
 ```
 
-### 5
+### 7
 
 Создать геттер addressInfo, котрый вернет объектом информацию об адресе кондидата.
 
