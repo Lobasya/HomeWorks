@@ -1,29 +1,29 @@
-const pizzaList = [
-    {   
-        id : 1,
+const pizzaList = [{
+        id: 1,
         img: "1.png",
         name: "Супер гриль",
         composition: ["охотничьи колбаски", "сосиски", "моцарелла", "баклажан", "томаты", "лук", "перец", "соус томатный", "соус BBQ", "зеленый соус", "майонез"],
         caloricity: 1569,
         price: 249,
     },
-    {   
+    {
         id: 2,
         img: "2.jpg",
         name: "Маргарита",
         composition: ["томаты", "моцарелла", "орегано", "базилик", "соус Pomodoro"],
         caloricity: 1042,
         price: 70,
+        priceOfTheDay: true,
     },
-    {   
-        id: 3, 
+    {
+        id: 3,
         img: "3.jpg",
         name: "Карбонара",
         composition: ["ветчина", "шампиньоны", "пармезан", "моцарелла", "томаты", "яйцо перепелиное", "смесь перцев", "соус Carbonara"],
         caloricity: 1369,
         price: 119,
     },
-    {   
+    {
         id: 4,
         img: "4.jpg",
         name: "C сырным бортиком",
@@ -31,15 +31,16 @@ const pizzaList = [
         caloricity: 1140,
         price: 139,
     },
-    {   
+    {
         id: 5,
         img: "5.png",
         name: "Полло",
         composition: ["куриное филе sous-vide", "ананас", "моцарелла", "орегано", "перец чили", "соус Pomodoro"],
         caloricity: 1232,
         price: 99,
+        priceOfTheDay: true,
     },
-    {   
+    {
         id: 6,
         img: "6.jpeg",
         name: "Пепперони",
@@ -47,7 +48,7 @@ const pizzaList = [
         caloricity: 1280,
         price: 119,
     },
-    {   
+    {
         id: 7,
         img: "7.png",
         name: "Гурмео",
@@ -55,7 +56,7 @@ const pizzaList = [
         caloricity: 1343,
         price: 149,
     },
-    {   
+    {
         id: 8,
         img: "8.jpeg",
         name: "Четыре сыра",
@@ -63,7 +64,7 @@ const pizzaList = [
         caloricity: 1220,
         price: 109,
     },
-    {   
+    {
         id: 9,
         img: "9.jpeg",
         name: "Американо",
@@ -71,15 +72,16 @@ const pizzaList = [
         caloricity: 1422,
         price: 149,
     },
-    {   
+    {
         id: 10,
         img: "10.jpg",
         name: "Кальцоне",
         composition: ["ветчина", "шампиньоны", "дор блю", "моцарелла", "томаты", "орегано"],
         caloricity: 1056,
         price: 99,
+        priceOfTheDay: true,
     },
-    {   
+    {
         id: 11,
         img: "11.png",
         name: "Берлускони",
@@ -87,7 +89,7 @@ const pizzaList = [
         caloricity: 1293,
         price: 125,
     },
-    {   
+    {
         id: 12,
         img: "12.png",
         name: "Супер гриль",
@@ -95,7 +97,7 @@ const pizzaList = [
         caloricity: 1410,
         price: 132,
     },
-    {   
+    {
         id: 13,
         img: "13.jpeg",
         name: "Кампанья",
@@ -103,7 +105,7 @@ const pizzaList = [
         caloricity: 1510,
         price: 144,
     },
-    {   
+    {
         id: 14,
         img: "14.png",
         name: "Дьявола",
@@ -111,7 +113,7 @@ const pizzaList = [
         caloricity: 1180,
         price: 107,
     },
-    {   
+    {
         id: 15,
         img: "15.png",
         name: "Бекон ранч",
@@ -119,7 +121,7 @@ const pizzaList = [
         caloricity: 1322,
         price: 113,
     },
-    {   
+    {
         id: 16,
         img: "16.png",
         name: "Гроссето",
@@ -127,7 +129,7 @@ const pizzaList = [
         caloricity: 980,
         price: 159,
     },
-    {   
+    {
         id: 17,
         img: "17.png",
         name: "Тоскана",
@@ -135,7 +137,7 @@ const pizzaList = [
         caloricity: 1310,
         price: 139,
     },
-    {   
+    {
         id: 18,
         img: "18.png",
         name: "Грибная",
@@ -143,7 +145,7 @@ const pizzaList = [
         caloricity: 1451,
         price: 132,
     },
-    {   
+    {
         id: 19,
         img: "19.png",
         name: "Туринская",
@@ -151,7 +153,7 @@ const pizzaList = [
         caloricity: 1140,
         price: 138,
     },
-    {   
+    {
         id: 20,
         img: "20.jpg",
         name: "Венецианская",
@@ -159,7 +161,7 @@ const pizzaList = [
         caloricity: 1341,
         price: 142,
     },
-    {   
+    {
         id: 21,
         img: "21.jpg",
         name: "Четыре сезона",
@@ -169,8 +171,7 @@ const pizzaList = [
     },
 ];
 
-const compositionList = [
-    {
+const compositionList = [{
         id: 1,
         name: "Моцарела",
         caloricity: 28,
