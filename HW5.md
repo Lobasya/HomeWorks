@@ -70,7 +70,7 @@ validator.checkIsPhone('+38 (066) 937-99-92'); // если код страны �
 
 # Литература
 
-* [Class Learn JavaScript]https://learn.javascript.ru/class)
+* [Class Learn JavaScript](https://learn.javascript.ru/class)
 
 * [Конструкторы и создание объектов Learn JavaScript](https://learn.javascript.ru/constructor-new)
 
