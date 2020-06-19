@@ -1,6 +1,6 @@
 # Home work 6 (Constructors, OOP)
 
-### Заюзайте html и js файлы из папки [HW6](https://github.com/Lobasya/HomeWorks/blob/master/HW6/), 
+### Используйте html и js файлы из папки [HW6](https://github.com/Lobasya/HomeWorks/blob/master/HW6/), 
 так как там лежит библиотека и немного кода который генерирует вам  кастомеров нужных для задания.
 
 ## Основные задания
