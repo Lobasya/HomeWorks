@@ -4,7 +4,7 @@
 
 ### 1
 
-Создайте класс Condidate который будет принимать параметром объект из массива [condidateArr](https://github.com/Lobasya/HomeWorks/blob/master/HW9/condidateArr.js). Добавить [геттер](https://coryrylan.com/blog/javascript-es6-class-syntax#get-and-set) state который вернет шатат в котором живает наш кондидат. Информация о штате находится в свойстве address и это 
+Создайте класс Condidate который будет принимать параметром объект из массива [condidateArr](https://github.com/Lobasya/HomeWorks/blob/master/HW9/condidateArr.js). Добавить [геттер](https://coryrylan.com/blog/javascript-es6-class-syntax#get-and-set) state который вернет штат в котором живает наш кондидат. Информация о штате находится в свойстве address и это 
 третья запись после запятой. свойства передаем с помощью Object.assign
 
 ```js
@@ -36,7 +36,7 @@ etc.
 
 ### 2
 
-Форматировать у каждого экзепляра Condidate registered, так что бы оно было представленно в виде js данных [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date). Что бы это получилось нам первоначально нужно отформатировать строку так, что бы удалитm из строки 
+Форматировать у каждого экзепляра Condidate registered, так что бы оно было представленно в виде js данных [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date). Что бы это получилось нам первоначально нужно отформатировать строку так, что бы удалить из строки 
 правую часть после пробела. Было "registered": "2017-04-08T05:13:17 -03:00" стало "registered": "2017-04-08T05:13:17".
 Подсказка [split](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/split).
 new [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date) (condidate.registered)
