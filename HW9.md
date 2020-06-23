@@ -123,6 +123,7 @@ console.log(arr) /// [ {id: 1,name: 'Kolya'}, {id: 3, name: 'Vasya'}, {id: 2, na
 
 * [Objects меттоды](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object)
 * [Arrays меттоды](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [Get and Set Class](https://coryrylan.com/blog/javascript-es6-class-syntax#get-and-set)
 
 
 
