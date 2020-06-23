@@ -13,6 +13,27 @@ condidate.state /// Colorado
 etc.
 ```
 
+```js
+Как работает геттер
+
+class Condidate {
+  constructor() {
+      this.name = 'Vasya'
+      this.surname = 'Pyatochikin'
+  }
+  
+  get fullName() {
+      return this.name + ' ' + this.surname
+  }
+}
+
+const candidate = new Condidate();
+
+console.log(candidate.fullName) /// Vasya Pyatochikin
+
+etc.
+```
+
 ### 2
 
 Форматировать у каждого экзепляра Condidate registered, так что бы оно было представленно в виде js данных [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date). Что бы это получилось нам первоначально нужно отформатировать строку так, что бы удалитm из строки 
