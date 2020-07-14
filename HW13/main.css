@@ -1,0 +1,23 @@
+body, .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sidebar {
+    margin: 10px 0 30px;
+    width: 100%;
+}
+
+.card {
+    margin: 0 0 10px;
+    padding: 0 20px;
+    width: 200px;
+    height: 400px;
+    border: 1px solid red;
+    text-align: center;
+}
+.card * {
+    padding: 10px;
+}
